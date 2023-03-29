@@ -8,9 +8,6 @@ The current state of this project is incomplete—the frontend components are di
 ### Download and usage instructions
 Git clone the repo locally and run `npm start` to start a local server to view the website on `localhost:3000`
 
-## Assumptions
-- Sub filters only 1 level deep and consistent AND/OR (should be same for each level)
-
 ## Future Work
 To improve on this for the future, I would port the data into a database and create API's to get all attributes, options for each attribute, and to implement the searching function. Currently all the logic is handled in the frontend, which does not scale if we want to handle a lot more data and have more complex searches.
 
